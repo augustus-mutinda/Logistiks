@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.paul_karanu.logistiks.Activities.NewFoodActivity">
+    <item
+        android:id="@+id/action_new_food_picture"
+        android:orderInCategory="100"
+        android:title="@string/new_picture_s"
+        app:showAsAction="always" />
+</menu>

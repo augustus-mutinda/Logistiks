@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "248217663945",
+    "firebase_url": "https://logistiks-b5582.firebaseio.com",
+    "project_id": "logistiks-b5582",
+    "storage_bucket": "logistiks-b5582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248217663945:android:232eaf60769cd542",
+        "android_client_info": {
+          "package_name": "com.paul_karanu.logistiks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248217663945-9s41q71fi2288jk93elbtpsa1r353rct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paul_karanu.logistiks",
+            "certificate_hash": "119e7e063cbefc6b309bc8c9f45144709d7d07f9"
+          }
+        },
+        {
+          "client_id": "248217663945-jqgq8l7mr67h5o51e2mh5fbt8jnq5m23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb6yN8fsQrAG42jb2ksnTYGaiRMY9ufuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248217663945-jqgq8l7mr67h5o51e2mh5fbt8jnq5m23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/modelCartImageCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="0dp"
+        android:layout_marginStart="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/modelCartImage"
+            android:layout_width="63dp"
+            android:layout_height="63dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/modelCartName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/food_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="7dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/modelCartCheckOutBtnLL"
+        app:layout_constraintStart_toEndOf="@+id/modelCartImageCover"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/modelCartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_marginStart="7dp"
+        app:layout_constraintStart_toEndOf="@+id/modelCartImageCover"
+        app:layout_constraintTop_toBottomOf="@+id/modelCartName">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:text="@string/ksh"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cartCheckOutSumTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/_800"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/modelCartCheckOutBtnLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/modelCartPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/modelCartCancelOutBtn"
+            android:layout_width="36dp"
+            android:layout_height="27dp"
+            android:background="@drawable/bg_primary_left"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/remove"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/modelCartCheckOutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:background="@drawable/bg_primary_right"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/check_out"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/modelCartAvailabilityLL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:gravity="start|center"
+        android:layout_marginStart="7dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/modelCartImageCover"
+        app:layout_constraintTop_toBottomOf="@+id/modelCartPrice">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_margin="7dp"
+            android:src="@drawable/ic_exclamation" />
+
+        <TextView
+            android:id="@+id/modelCartDeliveryOptionsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:text="@string/this_item_is_available_for_pickup_only"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/modelCartPickUpLL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="7dp"
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/modelCartTime"
+        app:layout_constraintStart_toEndOf="@+id/modelCartImageCover"
+        app:layout_constraintTop_toBottomOf="@+id/modelCartAvailabilityLL">
+
+        <TextView
+            android:id="@+id/modelCartDeliveryOptionsSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:text="@string/pick_up_at_thika"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/modelCartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:fontFamily="@font/nunito"
+        android:text="@string/_800"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/modelCartPickUpLL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/modelCartPickUpLL" />
+
+</android.support.constraint.ConstraintLayout>

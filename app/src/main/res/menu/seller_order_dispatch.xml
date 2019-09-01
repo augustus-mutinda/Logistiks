@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sellerOrderDispatch"
+        android:title="@string/dispatch_order" />
+    <item
+        android:id="@+id/sellerOrderDecline"
+        android:title="@string/decline_order" />
+</menu>

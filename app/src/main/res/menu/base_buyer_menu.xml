@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/baseBuyerMenuPreviewMeal"
+        android:title="@string/preview_meal" />
+
+    <item
+        android:id="@+id/baseBuyerMenuTalkToSeller"
+        android:title="@string/talk_to_seller" />
+
+    <item
+        android:id="@+id/baseBuyerMenuAddToCart"
+        android:title="@string/add_to_cart" />
+
+    <item
+        android:id="@+id/baseBuyerMenuPlaceOrder"
+        android:title="@string/place_order" />
+</menu>

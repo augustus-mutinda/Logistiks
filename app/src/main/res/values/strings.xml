@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">Logistiks</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="email">Email</string>
+    <string name="welcome_to_foodie">Welcome to Logistiks!</string>
+    <string name="next">Next</string>
+    <string name="logo">Logo</string>
+    <string name="terms_and_conditions_of_use">Terms and Conditions of use.</string>
+    <string name="by_clicking_next_you_agree_to">By clicking next, you agree to</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="please_confirm_the_password">Please confirm the password</string>
+    <string name="sign_out">Sign out</string>
+    <string name="about">About</string>
+    <string name="cupcake_r">Logistiks</string>
+    <string name="author_email">username@mail.com</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="system">System</string>
+    <string name="home">Home</string>
+    <string name="cart">Cart</string>
+    <string name="search">Search</string>
+    <string name="recent">Recent</string>
+    <string name="title_activity_food_preview">FoodPreviewActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="sell_on_foodie">Deliver on Logistiks</string>
+    <string name="title_activity_seller">Driver Account</string>
+    <string name="new_food">New Vehicle</string>
+    <string name="order_s">Order(s)</string>
+    <string name="buy_on_foodie">Send Deliveries</string>
+    <string name="seller">Driver</string>
+    <string name="title_activity_new_food">New Vehicle</string>
+    <string name="new_picture_s">Upload picture</string>
+    <string name="price">Set price</string>
+    <array name="availability_array">
+        <item>Morning</item>
+        <item>Mid-morning</item>
+        <item>Lunch</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+        <item>All day</item>
+    </array>
+    <array name="locations">
+        <item>Thika</item>
+        <item>Nairobi</item>
+    </array>
+    <array name="delivery_options">
+        <item>Pick up</item>
+        <item>Delivery</item>
+        <item>Both</item>
+    </array>
+    <string name="food_name">Vehicle Model</string>
+    <string name="deliveries_around_thika">Deliveries around</string>
+    <string name="add_new_locations_in_profile_settings">Add new locations in profile settings</string>
+    <string name="sample_food">Sample vehicle</string>
+    <string name="set_food_name">Set vehicle name</string>
+    <string name="save">Save</string>
+    <string name="write_about_the_food">Write about the vehicle, route, etc</string>
+    <string name="set_price">Set price</string>
+    <string name="ksh">ksh</string>
+    <string name="add_cart">Add cart</string>
+    <string name="chats">Chats</string>
+    <string name="surname">Surname</string>
+    <string name="other_name">Other name</string>
+    <string name="location">Location</string>
+    <string name="secondary_location">Secondary location</string>
+    <string name="phone_number">Phone number</string>
+    <string name="sample_time">22:30</string>
+    <string name="augustus">Username</string>
+    <string name="sample_message">This is a sample message</string>
+    <string name="type_your_message_here">Type your message here</string>
+    <string name="send">send</string>
+    <string name="sample_long_message">This is a sample long message that can span over several lines in an actual test</string>
+    <string name="preview_meal">Preview Driver</string>
+    <string name="talk_to_seller">Talk to driver</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="place_order">Place order</string>
+    <string name="use_foodie_as_a_seller">Deliver on logistiks(Driver)</string>
+    <string name="check_out">Check out</string>
+    <string name="_800">800</string>
+    <string name="this_item_is_available_for_pickup_only">This item is available for pickup only</string>
+    <string name="remove"> - </string>
+    <string name="pick_up_at_thika">Pick up at Thika</string>
+    <string name="meal_available_for">Driver available for</string>
+    <string name="meal_available_at">Driver available at</string>
+    <string name="sample_about_food">Write a short description about your service</string>
+    <string name="dispatch_order">Dispatch order</string>
+    <string name="decline_order">Decline order</string>
+    <string name="reserve_order_for_pick_up">Reserve order for pick up</string>
+    <string name="transactions">Transactions</string>
+    <string name="proceed">Proceed</string>
+    <string name="confirm_code">Confirm code</string>
+    <string name="mpesa_code">MPESA code</string>
+    <string name="please_enter_and_confirm_mpesa_code">Please enter and confirm MPESA code</string>
+</resources>

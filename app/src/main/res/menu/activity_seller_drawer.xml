@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_chat"
+            android:title="@string/chats" />
+        <item
+            android:id="@+id/nav_orders"
+            android:title="@string/order_s" />
+        <item
+            android:id="@+id/nav_transactions"
+            android:title="@string/transactions" />
+    </group>
+
+    <item android:title="@string/system">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/nav_switch_accounts"
+                android:title="@string/buy_on_foodie" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>

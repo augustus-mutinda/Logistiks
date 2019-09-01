@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.paul_karanu.logistiks">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="com.paul_karanu.logistiks.Activities.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.paul_karanu.logistiks.Activities.ChatActivity"></activity>
+        <activity
+            android:name="com.paul_karanu.logistiks.Activities.NewFoodActivity"
+            android:label="@string/title_activity_new_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.paul_karanu.logistiks.Activities.SellerActivity"
+            android:label="@string/title_activity_seller"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.paul_karanu.logistiks.Activities.FoodPreviewActivity"
+            android:label="@string/title_activity_food_preview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.paul_karanu.logistiks.Activities.SearchActivity" />
+        <activity
+            android:name="com.paul_karanu.logistiks.Activities.BaseActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.paul_karanu.logistiks.Activities.ProfileActivity" />
+        <activity
+            android:name="com.paul_karanu.logistiks.Activities.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name="com.paul_karanu.logistiks.Activities.SignUpActivity" />
+    </application>
+
+</manifest>

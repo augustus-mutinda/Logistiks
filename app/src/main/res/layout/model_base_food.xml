@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="117dp"
+    android:layout_margin="7dp"
+    android:id="@+id/modelBaseFood"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/modelBaseFoodImageCard"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@android:color/transparent"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/modelBaseFoodImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/modelBaseFoodMenuImage"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="7dp"
+        android:src="@drawable/ic_more"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/modelBaseFoodTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/nunito_bold"
+        android:lines="1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/modelBaseFoodImageCard"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/modelBaseFoodAbout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:fontFamily="@font/nunito"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/modelBaseFoodPriceLL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/modelBaseFoodImageCard"
+        app:layout_constraintTop_toBottomOf="@id/modelBaseFoodTitle" />
+
+    <LinearLayout
+        android:id="@+id/modelBaseFoodPriceLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:gravity="start|bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="@font/nunito"
+            android:text="@string/ksh"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/modelBaseFoodPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="21sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/modelBaseFoodStarsLL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center|start"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/modelBaseFoodAbout"
+        app:layout_constraintEnd_toStartOf="@+id/modelBaseFoodPriceLL">
+
+        <ImageView
+            android:id="@+id/modelBaseFoodStar1"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/modelBaseFoodStar2"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/modelBaseFoodStar3"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/modelBaseFoodStar4"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/modelBaseFoodStar5"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_star" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
